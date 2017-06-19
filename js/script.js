@@ -1,6 +1,6 @@
 // event listener to respond to "Show another quote" button clicks
 // when user clicks anywhere on the button, the "printQuote" function is called
-document.getElementById('loadQuote').addEventListener("click", printQuote, false);
+document.getElementById('loadQuote').addEventListener("click", printQuoteAndChangeBackgroundColor, false);
 
 // Required:
 // 1. Create a function named getRandomQuote that:
@@ -44,20 +44,21 @@ function printQuote() {
 
 
 // Change the background color (& button color) when a new quote is printed
-function getNewBackgroundColor() {
-    printQuote();
+function printQuoteAndChangeBackgroundColor() {
+  printQuote();
   var newBackgroundColor = "rgb(" + Math.floor(Math.random() * 256 + 1) + ", " + Math.floor(Math.random() * 256 + 1) + ", " + Math.floor(Math.random() * 256 + 1) + ")";
+  console.log(newBackgroundColor);
   document.body.style.backgroundColor = newBackgroundColor;
   document.getElementById("loadQuote").style.background = newBackgroundColor;
 
 }
 
-getNewBackgroundColor();
+printQuoteAndChangeBackgroundColor();
 
 
 // Refresh the quote after 10 seconds
  function refreshQuote() {
-  var quoteRefresh = window.setInterval(printQuote, 10000);
+  var quoteRefresh = window.setInterval(printQuoteAndChangeBackgroundColor, 10000);
 }
 
 refreshQuote();

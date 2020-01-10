@@ -14,7 +14,7 @@ var quotes = [
   },
   {
     quote: "What power would Hell have if those imprisoned there were not able to dream of Heaven?",
-    source: "Neil Gaiman",
+    source: "Neil Gaiman"
   },
   {
     quote: '<font size="12px">Tomorrow may be hell, but today was a good writing day, and on the good writing days nothing else matters.</font>',

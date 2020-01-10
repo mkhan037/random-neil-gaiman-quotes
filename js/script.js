@@ -14,6 +14,11 @@ function getRandomQuote ( ) {
   return quotes[randNum];
 }
 
+function getRandomImage ( ) {
+  var upperLimit = numberOfAvailableImages;
+  var randNum = Math.floor(Math.random() * upperLimit);
+  return randNum;
+}
 
 // Required:
 // 1. create a function that calls getRandomQuote & stores it in a new variable
@@ -24,6 +29,7 @@ function getRandomQuote ( ) {
 //  document.getElementById('quote-box').innerHTML = message;
 function printQuote() {
   var randQuote = getRandomQuote();
+  var randImage = "images/img_" + getRandomImage() + ".jpg";
   console.log(randQuote);
   var message = '<p class="quote">' + randQuote.quote + '</p>';
   message += '<p class="source">' + randQuote.source;
@@ -39,7 +45,7 @@ function printQuote() {
 
   console.log(message);
   document.getElementById('quote-box').innerHTML = message;
-
+  document.getElementById("image").src = randImage;
 }
 
 
@@ -50,7 +56,6 @@ function printQuoteAndChangeBackgroundColor() {
   console.log(newBackgroundColor);
   document.body.style.backgroundColor = newBackgroundColor;
   document.getElementById("loadQuote").style.background = newBackgroundColor;
-
 }
 
 printQuoteAndChangeBackgroundColor();

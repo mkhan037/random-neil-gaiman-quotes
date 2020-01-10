@@ -53,15 +53,7 @@ var quotes = [
     source: "Neil Gaiman"
   },
    {
-    quote: "Monsters come in all shapes and sizes. Some of them are things people are scared of. Some of them are things that look like things people used to be scared of a long time ago. Sometimes monsters are things people should be scared of, but they aren't.",
-    source: "Neil Gaiman"
-  },
-   {
     quote: "As sure as water's wet and days are long and a friend will always disappoint you in the end.",
-    source: "Neil Gaiman"
-  },
-   {
-    quote: "This is a work of fiction. Still, given an infinite number of possible worlds, it must be true on one of them. And if a story set in an infinite number of possible worlds is true in one of them, then it must be true in all of them. So maybe, it's not as fictional as we think.",
     source: "Neil Gaiman"
   },
    {
@@ -73,3 +65,5 @@ var quotes = [
     source: "Neil Gaiman"
   }
 ];
+
+var numberOfAvailableImages = 7;

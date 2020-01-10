@@ -1,6 +1,4 @@
-# Random Quote Generator
-View project: https://thackley.github.io/unit-1-random-quote-generator/
+# Random Neil Gaiman Quote Generator
+View project: https://mkhan037.github.io/random-neil-gaiman-quotes/
 
-- Array of quote objects with properties such as quote, source, and citation
-- Randomly return a quote
-- Quotes & background color change randomly after certain amount of time
+- Built on top of https://github.com/thackley/unit-1-random-quote-generator mostly for learning and playing around with github pages

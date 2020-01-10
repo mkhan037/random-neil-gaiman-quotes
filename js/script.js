@@ -56,9 +56,9 @@ function printQuoteAndChangeBackgroundColor() {
 printQuoteAndChangeBackgroundColor();
 
 
-// Refresh the quote after 10 seconds
+// Refresh the quote after 60 seconds
  function refreshQuote() {
-  var quoteRefresh = window.setInterval(printQuoteAndChangeBackgroundColor, 10000);
+  var quoteRefresh = window.setInterval(printQuoteAndChangeBackgroundColor, 60000);
 }
 
 refreshQuote();

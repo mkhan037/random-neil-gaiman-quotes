@@ -9,43 +9,43 @@
 // 3. Add an additional property like tags to sort the information into categories
 var quotes = [
   {
-    quote: "We cannot all succeed when half of us are held back.",
-    source: "Malala Yousafzai",
-    citation: "Address to United Nations",
-    year: 2013,
-    tags: "feminism"
+    quote: "The world always seems brighter when you've just made something that wasn't there before.",
+    source: "Neil Gaiman"
   },
   {
-    quote: '<font size="6px">To all the little girls who are watching, never doubt that you are valuable and powerful and deserving of every chance and opportunity in the world to pursue and achieve your own dreams.</font>',
-    source: "Hillary Clinton",
-    citation: "2016 Presidential Concession Speech",
-    year: 2016,
-    tags: "politics"
+    quote: "What power would Hell have if those imprisoned there were not able to dream of Heaven?",
+    source: "Neil Gaiman",
   },
   {
-    quote: '<font size="12px">Of course I am not worried about intimidating men. The type of man who will be intimidated by me is exactly the type of man I have no interest in.</font>',
-    source: "Chimamanda Ngozi Adichie",
-    citation: "We Should All Be Feminsts",
-    year: 2014,
-    tags: "feminism"
+    quote: '<font size="12px">Tomorrow may be hell, but today was a good writing day, and on the good writing days nothing else matters.</font>',
+    source: "Neil Gaiman"
   },
   {
-    quote: "I am a Woman Phenomenally. Phenomenal Woman, that's me.",
-    source: "Maya Angelou",
-    citation: "Phenomenal Woman",
-    year: 1995,
-    tags: "poetry"
+    quote: "Gods die. And when they truly die they are unmourned and unremembered. Ideas are more difficult to kill than people, but they can be killed, in the end.",
+    source: "Neil Gaiman"
   },
   {
-    quote: "A woman with a voice is, by definition, a strong woman.",
-    source: "Melinda Gates",
-    citation: "Powerful Voices Luncheon",
-    year: 2003,
-    tags: "feminism"
+    quote: "Because, if one is writing novels today, concentrating on the beauty of the prose is right up there with concentrating on your semi-colons, for wasted effort.",
+    source: "Neil Gaiman"
   },
    {
-    quote: "Women belong in the house — and the Senate.",
-    source: "Unknown",
-    tags: "politics"
+    quote: "I was the kind of kid whose parents would drop him off at the local town library on their way to work, and I'd go and work my way through the children's area.",
+    source: "Neil Gaiman"
+  },
+  {
+    quote: "The current total of countries in the world with First Amendments is one. You have guaranteed freedom of speech. Other countries don't have that.",
+    source: "Neil Gaiman"
+  },
+   {
+    quote: "Great, big, serious novels always get awards. If it's a battle between a great, big, serious novel and a funny novel, the funny novel is doomed.",
+    source: "Neil Gaiman"
+  },
+  {
+    quote: "We all not only could know everything. We do. We just tell ourselves we don't to make it all bearable.",
+    source: "Neil Gaiman"
+  },
+   {
+    quote: "A nice, easy place for freedom of speech to be eroded is comics, because comics are a natural target whenever an election comes up.",
+    source: "Neil Gaiman"
   }
 ];

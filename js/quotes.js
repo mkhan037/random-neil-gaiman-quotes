@@ -47,5 +47,29 @@ var quotes = [
    {
     quote: "A nice, easy place for freedom of speech to be eroded is comics, because comics are a natural target whenever an election comes up.",
     source: "Neil Gaiman"
+  },
+   {
+    quote: "It's like the people who believe they'll be happy if they go and live somewhere else, but who learn it doesn't work that way. Wherever you go, you take yourself with you. If you see what I mean.",
+    source: "Neil Gaiman"
+  },
+   {
+    quote: "Monsters come in all shapes and sizes. Some of them are things people are scared of. Some of them are things that look like things people used to be scared of a long time ago. Sometimes monsters are things people should be scared of, but they aren't.",
+    source: "Neil Gaiman"
+  },
+   {
+    quote: "As sure as water's wet and days are long and a friend will always disappoint you in the end.",
+    source: "Neil Gaiman"
+  },
+   {
+    quote: "This is a work of fiction. Still, given an infinite number of possible worlds, it must be true on one of them. And if a story set in an infinite number of possible worlds is true in one of them, then it must be true in all of them. So maybe, it's not as fictional as we think.",
+    source: "Neil Gaiman"
+  },
+   {
+    quote: "Why are we talking about this good and evil? They're just names for sides. We know that.",
+    source: "Neil Gaiman"
+  },
+   {
+    quote: "People tend to find books when they are ready for them.",
+    source: "Neil Gaiman"
   }
 ];
